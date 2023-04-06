@@ -8,4 +8,4 @@ jobs:
         uses: anchore/scan-action@v3.3.5
         with:
           path: "/ZayanShahid/flask_tutorial"
-          fail-build: false
+          fail-build: true
