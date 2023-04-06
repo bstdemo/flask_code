@@ -4,8 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Scan current project
-        uses: anchore/scan-action@v3
+      - name: Anchore Container Scan
+        uses: anchore/scan-action@v3.3.5
         with:
           path: "."
           fail-build: false
