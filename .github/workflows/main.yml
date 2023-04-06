@@ -7,5 +7,5 @@ jobs:
       - name: Scan current project
         uses: anchore/scan-action@v3.3.5
         with:
-          path: "/ZayanShahid/flask_tutorial"
+          path: "."
           fail-build: false
