@@ -7,5 +7,5 @@ jobs:
       - name: Anchore Container Scan
         uses: anchore/scan-action@v3.3.5
         with:
-          path: "."
+          path: "/ZayanShahid/flask_tutorial"
           fail-build: false
